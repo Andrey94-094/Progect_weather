@@ -1,0 +1,42 @@
+
+.form {
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(to bottom right, rgb(165, 165, 248), pink);
+    &__button {  text-decoration: none;
+        display: inline-block;
+        padding: 12px 20px;
+        border-radius: 30px;
+        background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+        background-position: 100% 0;
+        background-size: 200% 200%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color: white;
+        box-shadow: 0 10px 10px 0 rgba(0, 40, 120, .35);
+        transition: .5s;
+    }
+    :active {
+        top: 3px;
+        background-image: linear-gradient(bottom, rgb(62, 184, 229) 0%, rgb(44, 160, 202) 100%);
+    }:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+}
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
